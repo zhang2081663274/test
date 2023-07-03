@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/C++_workplace/test03/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -o CMakeFiles\\Factory.dir\\main.cpp.obj -c D:\\C++_workplace\\test03\\main.cpp",
+  "file": "D:/C++_workplace/test03/main.cpp"
+},
+{
+  "directory": "D:/C++_workplace/test03/build",
+  "command": "D:\\mingw64\\bin\\g++.exe  @CMakeFiles/Factory.dir/includes_CXX.rsp -g -o CMakeFiles\\Factory.dir\\factory.cpp.obj -c D:\\C++_workplace\\test03\\factory.cpp",
+  "file": "D:/C++_workplace/test03/factory.cpp"
+}
+]
