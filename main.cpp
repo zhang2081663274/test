@@ -20,6 +20,9 @@
 #include "ConcerteStrategyB.h"
 #include "ConcerteStrategyC.h"
 
+#include "Decorator.h"
+#include "Person.h"
+
 // using namespace mystl::test;
 using namespace mystl;
 int main()
@@ -30,21 +33,26 @@ int main()
     // pOne->show();
     // pTwo->show();
 
-    auto pConcreteStrategyA = new ConcreteStrategyA();
-    auto pConcreteStrategyB = new ConcreteStrategyB();
-    auto pConcreteStrategyC = new ConcreteStrategyC();
+    // auto pConcreteStrategyA = new ConcreteStrategyA();
+    // auto pConcreteStrategyB = new ConcreteStrategyB();
+    // auto pConcreteStrategyC = new ConcreteStrategyC();
 
-    auto pContextA = new Context(pConcreteStrategyA);
-    auto pContextB = new Context(pConcreteStrategyB);
-    auto pContextC = new Context(pConcreteStrategyC);
+    // auto pContextA = new Context(pConcreteStrategyA);
+    // auto pContextB = new Context(pConcreteStrategyB);
+    // auto pContextC = new Context(pConcreteStrategyC);
 
-    pContextA->ContextInterface();
-    pContextB->ContextInterface();
-    pContextC->ContextInterface();
+    // pContextA->ContextInterface();
+    // pContextB->ContextInterface();
+    // pContextC->ContextInterface();
 
-    pContextA->freePtr();
-    pContextB->freePtr();
-    pContextC->freePtr();
+    // pContextA->freePtr();
+    // pContextB->freePtr();
+    // pContextC->freePtr();
+
+    Person* onePerson = new NumberPerson("zhangsan");
+    Person* decorateA = new DecoratePersonA(onePerson);
+    Person* decorateB = new DecoratePersonB(decorateA);
+    decorateB->show();
 
     return 0;
 }

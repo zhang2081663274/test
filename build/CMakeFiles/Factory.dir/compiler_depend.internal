@@ -247,4 +247,6 @@ CMakeFiles/Factory.dir/main.cpp.obj
  D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyA.h
  D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyB.h
  D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyC.h
+ D:/C++_workplace/test03/include/decorate_header/Decorator.h
+ D:/C++_workplace/test03/include/decorate_header/Person.h
 

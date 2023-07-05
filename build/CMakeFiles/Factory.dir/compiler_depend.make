@@ -244,7 +244,9 @@ CMakeFiles/Factory.dir/main.cpp.obj: D:/C++_workplace/test03/main.cpp \
   D:/C++_workplace/test03/include/strategy_header/Strategy.h \
   D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyA.h \
   D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyB.h \
-  D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyC.h
+  D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyC.h \
+  D:/C++_workplace/test03/include/decorate_header/Decorator.h \
+  D:/C++_workplace/test03/include/decorate_header/Person.h
 
 
 D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
@@ -500,3 +502,7 @@ D:/C++_workplace/test03/include/strategy_header/Strategy.h:
 D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyB.h:
 
 D:/C++_workplace/test03/include/strategy_header/ConcerteStrategyC.h:
+
+D:/C++_workplace/test03/include/decorate_header/Decorator.h:
+
+D:/C++_workplace/test03/include/decorate_header/Person.h:

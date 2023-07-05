@@ -16,6 +16,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 #包含的头文件地址
 include_directories(./include/factory_header)
 include_directories(./include/strategy_header)
+include_directories(./include/decorate_header)
 
 #执行内容
 add_executable(Factory main.cpp factory.cpp)
