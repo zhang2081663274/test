@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 22,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -48,6 +48,12 @@
 				"file" : 0,
 				"line" : 19,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
 			}
 		]
 	},
@@ -64,15 +70,19 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/C++_workplace/test03/./include/factory_header"
+					"path" : "D:/C++_workplace/test03/./include/1_factory_header"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/C++_workplace/test03/./include/strategy_header"
+					"path" : "D:/C++_workplace/test03/./include/2_strategy_header"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "D:/C++_workplace/test03/./include/decorate_header"
+					"path" : "D:/C++_workplace/test03/./include/3_decorate_header"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/C++_workplace/test03/./include/4_proxy_header"
 				}
 			],
 			"language" : "CXX",

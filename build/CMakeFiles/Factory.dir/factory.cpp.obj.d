@@ -1,8 +1,8 @@
 CMakeFiles/Factory.dir/factory.cpp.obj: \
  D:\C++_workplace\test03\factory.cpp \
- D:/C++_workplace/test03/include/factory_header/factory.h \
- D:/C++_workplace/test03/include/factory_header/product.h \
- D:/C++_workplace/test03/include/factory_header/conproduct1.h \
+ D:/C++_workplace/test03/include/1_factory_header/factory.h \
+ D:/C++_workplace/test03/include/1_factory_header/product.h \
+ D:/C++_workplace/test03/include/1_factory_header/conproduct1.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -119,4 +119,4 @@ CMakeFiles/Factory.dir/factory.cpp.obj: \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- D:/C++_workplace/test03/include/factory_header/conproduct2.h
+ D:/C++_workplace/test03/include/1_factory_header/conproduct2.h
