@@ -12,8 +12,8 @@
 #include <iostream>
 
 //简单工厂头文件
-// #include "factory.h"
-// #include "product.h"
+#include "factory.h"
+#include "product.h"
 
 #include "Context.h"
 #include "ConcerteStrategyA.h"
@@ -26,6 +26,13 @@
 #include "Pursuit.h"
 #include "SchoolGirl.h"
 #include "Proxy.h"
+
+#include "IFactory.h"
+#include "LeiFeng.h"
+#include "Volunteer.h"
+#include "VolunteerFactory.h"
+#include "Undergraduate.h"
+#include "UndergraduateFactory.h"
 
 // using namespace mystl::test;
 using namespace mystl;
@@ -73,12 +80,18 @@ int main()
     // zhuojia->GiveDolls();
     // zhuojia->GiveFlowers();
     //修改后
-    SchoolGirl* jiaojiao = new SchoolGirl("jiaojiao");
-    Proxy* daili = new Proxy(jiaojiao);
-    daili->GiveDolls();
-    daili->GiveChocolate();
-    daili->GiveFlowers();
-    
+    // SchoolGirl* jiaojiao = new SchoolGirl("jiaojiao");
+    // Proxy* daili = new Proxy(jiaojiao);
+    // daili->GiveDolls();
+    // daili->GiveChocolate();
+    // daili->GiveFlowers();
+    //===================  代理模式 ==============
 
+    //工厂模式
+    IFactory* factory = new UndergraduateFactory();
+    LeiFeng* student = factory->CreateLeiFeng();
+    student->BugRice();
+    student->Sweep();
+    student->Wash();
     return 0;
 }

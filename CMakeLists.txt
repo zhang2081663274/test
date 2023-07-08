@@ -14,10 +14,11 @@ message(STATUS ${PROJECT_BINARY_DIR})
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
 #包含的头文件地址
-include_directories(./include/1_factory_header)
+include_directories(./include/1_simple_factory_header)
 include_directories(./include/2_strategy_header)
 include_directories(./include/3_decorate_header)
 include_directories(./include/4_proxy_header)
+include_directories(./include/5_factory_header)
 
 
 #执行内容

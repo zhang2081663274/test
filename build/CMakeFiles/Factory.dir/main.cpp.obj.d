@@ -115,6 +115,10 @@ CMakeFiles/Factory.dir/main.cpp.obj: D:\C++_workplace\test03\main.cpp \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  D:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ D:/C++_workplace/test03/include/1_simple_factory_header/factory.h \
+ D:/C++_workplace/test03/include/1_simple_factory_header/product.h \
+ D:/C++_workplace/test03/include/1_simple_factory_header/conproduct1.h \
+ D:/C++_workplace/test03/include/1_simple_factory_header/conproduct2.h \
  D:/C++_workplace/test03/include/2_strategy_header/Context.h \
  D:/C++_workplace/test03/include/2_strategy_header/Strategy.h \
  D:/C++_workplace/test03/include/2_strategy_header/ConcerteStrategyA.h \
@@ -125,4 +129,10 @@ CMakeFiles/Factory.dir/main.cpp.obj: D:\C++_workplace\test03\main.cpp \
  D:/C++_workplace/test03/include/4_proxy_header/Pursuit.h \
  D:/C++_workplace/test03/include/4_proxy_header/SchoolGirl.h \
  D:/C++_workplace/test03/include/4_proxy_header/GiveGift.h \
- D:/C++_workplace/test03/include/4_proxy_header/Proxy.h
+ D:/C++_workplace/test03/include/4_proxy_header/Proxy.h \
+ D:/C++_workplace/test03/include/5_factory_header/IFactory.h \
+ D:/C++_workplace/test03/include/5_factory_header/LeiFeng.h \
+ D:/C++_workplace/test03/include/5_factory_header/Volunteer.h \
+ D:/C++_workplace/test03/include/5_factory_header/VolunteerFactory.h \
+ D:/C++_workplace/test03/include/5_factory_header/Undergraduate.h \
+ D:/C++_workplace/test03/include/5_factory_header/UndergraduateFactory.h
